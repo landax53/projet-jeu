@@ -22,8 +22,77 @@ body {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.container {
+    background-color: rgba(255,255,255,0.2);
+    padding : 20px;
+    border-radius:15px;
+    box-shadow: var(--boxShadow);
+    text-align: center;
+
+
 }
 
 h1{
     font-family: 'Luckiest Guy', cursive;
+    margin-bottom: 15px;
+    color : #ffc31d;
+    text-shadow : var(--textShadow);
+    display: inline-block;
+}
+
+.vies {
+    margin : 10px;
+}
+
+ion-icon{
+    font-size: 50px;
+    fill: red;
+}
+
+#inputBox {
+    background-color: #abf8e0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#inputBox > label {
+    display : block;
+    margin-bottom : 8px;
+}
+
+input, button {
+    outline : none;
+    border : none;
+    padding : 3px 20px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: teal;
+    color: white;
+    cursor : pointer;
+    transition : all 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    background-color: rgb(1, 146, 146);
+}
+
+p#message {
+    margin: 20px auto 0 auto;
+}
+
+#rejouer {
+    display:none;
+    margin: 5px auto 0 auto;
+}
+
+#details {
+    font-weight: bold;
+    font-size: 6px;
+    padding-top: 5px;
 }
